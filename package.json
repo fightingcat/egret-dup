@@ -1,16 +1,14 @@
 {
   "name": "egret-dup",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "download egret game resource",
   "bin": {
-    "egretdup": "index.js"
+    "egretdup": "./bin/egretdup"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "egret"
+  ],
+  "author": "fightingcat",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.13.0",
